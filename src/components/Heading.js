@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from 'react-dom/client';
-
+import abc from './abc.jpg';
 function Heading()
 {
     return(
@@ -14,7 +14,7 @@ function Heading()
         <div className="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div className="col-10 col-sm-8 col-lg-6 text-center">
   <img
-  src="/abc.jpg"
+  src={abc}
   className="hero-img d-block mx-auto img-fluid"
   alt="Vinay Films Work"
   style={{ maxWidth: "400px", height: "auto", marginTop: "-20px" }}
