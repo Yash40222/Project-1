@@ -1,0 +1,17 @@
+.inst i {
+  transition: transform 0.3s ease !important;
+}
+
+.inst:hover i {
+  transform: scale(1.2) !important;
+  color: #E1306C !important;
+}
+
+.face i {
+  transition: transform 0.3s ease !important;
+}
+
+.face:hover i {
+  transform: scale(1.2) !important;
+  color: #3b5998 !important; /* Facebook Blue */
+}
